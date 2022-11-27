@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: no-repeat center/100% rgb(0,0,0,0.7) url("../Images/pexels-rafael-cosquiere-2041540.jpg");
+    background-blend-mode: darken;
+    
+}
+
+.logo{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 0px 10px;
+
+}
+
+.heading{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 27px auto auto auto;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.form{
+    background-color:#f1f8f0e6;;
+    height: 25rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(129, 114, 114);
+    width: 50%;
+    margin: 2rem auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 20px;
+}
+    
+ .label{
+    width: 75%;
+    margin: auto;
+    text-align: left;
+ }
+.elem{
+    width: 75%;
+    margin: auto;
+    margin-top: 0rem;
+}
+input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 4px;
+    font-size: 16px;
+}
+.btn{
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(209, 11, 11);
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: red;
+}
+p a{
+    text-decoration: none;
+    color:blue;
+}
+p a:hover{
+    color:green;
+}
+
+p a:active{
+    color: yellow;
+}
+
